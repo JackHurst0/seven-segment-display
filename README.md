@@ -1,8 +1,34 @@
-WARNING:
-This repository is a work in progress. The project isn't yet finished.
+### Android Seven Segment View
+WARNING: This library is still a WIP and therefor it is not considered stable.
 
-A View for android to display numbers in a seven segment display format.
+A view that displays numerical digits like an old fashioned [7 Segment LCD display](https://en.wikipedia.org/wiki/Seven-segment_display)
 
-TODO: Add a gif
+![] (https://github.com/JackHurst0/seven-segment-display/blob/master/demo.gif)
 
-TODO: Add useage instruction (gradle and custom attributes)
+
+### Usage
+Add Jitpack distribution to the end of the repositories in your root build.gradle file.
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+Add the dependency to the list of dependencies in your app build.gradle file
+
+	dependencies {
+	        implementation 'com.github.JackHurst0:seven-segment-display:0.0.1'
+	}
+   
+#### Customization
+Use `app:digits` to set the content of the view in xml, or `view.setDigits` to set them in code
+
+Use `app:onColor` and `app:offColor` to customize the colors of the segments.
+
+Use `app:segmentLength` and `app:segmentThickness` to control the size of the digits in the view.
+
+Use `app:digitSpacing` to control how digits are spaced from each other.
+
+Use `app:minDisplay` to pad the view with leading leading zeros to be as long as you specify
