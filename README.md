@@ -3,7 +3,7 @@ WARNING: This library is still a WIP and therefor it is not considered stable.
 
 A view that displays numerical digits like an old fashioned [7 Segment LCD display](https://en.wikipedia.org/wiki/Seven-segment_display)
 
-![] (https://github.com/JackHurst0/seven-segment-display/blob/master/demo.gif)
+![](https://github.com/JackHurst0/seven-segment-display/blob/master/demo.gif)
 
 
 ### Usage
