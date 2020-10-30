@@ -1,0 +1,3 @@
+include ':seven-segment-display'
+include ':app'
+rootProject.name = "Seven Segment Demo"

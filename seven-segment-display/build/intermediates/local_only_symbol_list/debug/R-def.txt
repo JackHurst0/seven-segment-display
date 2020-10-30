@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+attr? digitSpacing
+attr? digits
+attr? minDisplay
+attr? offColor
+attr? onColor
+attr? segmentLength
+attr? segmentThickness
+styleable SevenSegmentView digits digitSpacing minDisplay segmentLength segmentThickness onColor offColor

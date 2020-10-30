@@ -1,0 +1,2 @@
+uk/co/jackhurst/seven_segment_display/BuildConfig.java
+ uk.co.jackhurst.seven_segment_display.BuildConfig

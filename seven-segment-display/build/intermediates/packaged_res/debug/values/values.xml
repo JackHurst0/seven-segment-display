@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SevenSegmentView">
+        <attr format="integer" name="digits"/>
+        <attr format="dimension" name="digitSpacing"/>
+        <attr format="integer" name="minDisplay"/>
+        <attr format="dimension" name="segmentLength"/>
+        <attr format="dimension" name="segmentThickness"/>
+        <attr format="color" name="onColor"/>
+        <attr format="color" name="offColor"/>
+    </declare-styleable>
+</resources>

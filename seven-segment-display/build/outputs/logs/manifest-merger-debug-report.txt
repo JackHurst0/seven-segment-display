@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		ADDED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackhurst/Documents/dev/SevenSegment/seven-segment-display/src/main/AndroidManifest.xml
