@@ -15,7 +15,6 @@ class SevenSegmentView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 
-    private var digits = 0
     private var digitString = "0"
     private var onPaint: Paint? = null
     private var offPaint: Paint? = null
@@ -26,6 +25,11 @@ class SevenSegmentView @JvmOverloads constructor(
     private var segmentLength = 120f
     private var segmentThickness = 20f
     private var digitSpacing = 20f
+
+    private var _digits = 0
+    var digits :Int
+        get() = _digits
+        set(value) = updateDigits(value)
 
     init {
         val attributes = context.obtainStyledAttributes(attrs, R.styleable.SevenSegmentView)
@@ -70,9 +74,9 @@ class SevenSegmentView @JvmOverloads constructor(
         }
     }
 
-    fun setDigits(newDigits: Int) {
+    private fun updateDigits(newDigits: Int) {
         val oldDigits = digitString
-        digits = newDigits
+        _digits = newDigits
         digitString = digits.toString().padStart(zeroPadding, '0')
         if (oldDigits != digitString) {
             requestLayout()
