@@ -4,6 +4,7 @@ import android.animation.ValueAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.LinearInterpolator
+import android.widget.TextView
 import uk.co.jackhurst.seven_segment_display.SevenSegmentView
 
 class MainActivity : AppCompatActivity() {
@@ -13,16 +14,20 @@ class MainActivity : AppCompatActivity() {
 
         val bigSegments = findViewById<SevenSegmentView>(R.id.segment_digits)
         val segments = findViewById<SevenSegmentView>(R.id.segment_digits_red)
-        segments.setDigits(23)
+        val smallSegments = findViewById<SevenSegmentView>(R.id.segment_digits_small)
+        val mirrorText = findViewById<TextView>(R.id.digitMirror)
+        segments.digits = 23
 
         val animator = ValueAnimator.ofInt(0, 500)
         animator.duration = 50000
         animator.addUpdateListener { num ->
-            bigSegments.setDigits(num.animatedValue as Int)
-            segments.setDigits((num.animatedValue as Int) / 10)
+            bigSegments.digits = num.animatedValue as Int
+            segments.digits = (num.animatedValue as Int) / 10
         }
         animator.interpolator = LinearInterpolator()
         animator.repeatCount = ValueAnimator.INFINITE
         animator.start()
+
+        mirrorText.text = smallSegments.digits.toString()
     }
 }

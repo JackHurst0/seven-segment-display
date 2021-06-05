@@ -19,11 +19,11 @@ Add Jitpack distribution to the end of the repositories in your root build.gradl
 Add the dependency to the list of dependencies in your app build.gradle file
 
 	dependencies {
-	        implementation 'com.github.JackHurst0:seven-segment-display:0.0.1'
+	        implementation 'com.github.JackHurst0:seven-segment-display:0.0.2'
 	}
    
 #### Customization
-Use `app:digits` to set the content of the view in xml, or `view.setDigits` to set them in code
+Use `app:digits` to set the content of the view in xml, or `view.digits` to set them in code
 
 Use `app:onColor` and `app:offColor` to customize the colors of the segments.
 
